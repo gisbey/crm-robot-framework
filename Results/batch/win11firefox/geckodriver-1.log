@@ -1,0 +1,61 @@
+1773775882226	geckodriver	INFO	Listening on 127.0.0.1:50943
+1773775885355	mozrunner::runner	INFO	Running command: "C:\\Users\\RGisbey\\.cache\\selenium\\firefox\\win64\\148.0.2\\firefox.exe" "--marionette" "--remote-debugg ...  "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RGisbey\\AppData\\Local\\Temp\\rust_mozprofileZA6fxl"
+console.error: WindowsGPOParser: 
+  Unable to parse JSON for ExtensionSettings
+console.error: JsonSchemaValidator: 
+  Ignoring parameter "https://verintcloudservices.com/edi" - origin was expected but received full URL.
+console.error: JsonSchemaValidator: 
+  Ignoring parameter "[*.]csod.com" - not a valid origin.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1773775886153	Marionette	INFO	Marionette enabled
+1773775886309	Marionette	INFO	Listening on port 50952
+WebDriver BiDi listening on ws://127.0.0.1:50944
+Read port: 50952
+1773775886526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+*** You are running in background task mode. ***
+*** You are running in headless mode.
+console.error: WindowsGPOParser: 
+  Unable to parse JSON for ExtensionSettings
+console.error: JsonSchemaValidator: 
+  Ignoring parameter "https://verintcloudservices.com/edi" - origin was expected but received full URL.
+console.error: JsonSchemaValidator: 
+  Ignoring parameter "[*.]csod.com" - not a valid origin.
+console.error: "C:\\Users\\RGisbey\\AppData\\Local\\Temp\\rust_mozprofileZA6fxl" "" 0 ".purge.bg_rm" ""
+console.warn: "Skipping Glean as no metrics id is passed"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationplayground.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationplayground.com."
+1773775905400	Marionette	INFO	Stopped listening on port 50952
+Dynamically enable window occlusion 1
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+*** You are running in background task mode. ***
+*** You are running in headless mode.
+console.error: WindowsGPOParser: 
+  Unable to parse JSON for ExtensionSettings
+console.error: JsonSchemaValidator: 
+  Ignoring parameter "https://verintcloudservices.com/edi" - origin was expected but received full URL.
+console.error: JsonSchemaValidator: 
+  Ignoring parameter "[*.]csod.com" - not a valid origin.
+console.error: "C:\\Users\\RGisbey\\AppData\\Local\\Temp\\rust_mozprofileZA6fxl" "cache2.2026-03-17-19-31-46.purge.bg_rm" 10 ".purge.bg_rm" ""
+console.error: "Cache folder attempt no 1"
+console.error: "Cache folder attempt no 2"
+console.error: "Cache folder attempt no 3"
+console.error: "Cache folder attempt no 4"
+console.error: "Cache folder attempt no 5"
+console.error: "Cache folder attempt no 6"
+console.error: "Cache folder attempt no 7"
+console.error: "Cache folder attempt no 8"
+console.error: "Cache folder attempt no 9"
+console.error: "Cache folder attempt no 10"
+console.error: "Cache folder attempt no 11"
+console.error: "couldn't find cache folder C:\\Users\\RGisbey\\AppData\\Local\\Temp\\rust_mozprofileZA6fxl\\cache2.2026-03-17-19-31-46.purge.bg_rm"
+console.warn: "Skipping Glean as no metrics id is passed"
+console.error: BackgroundTasksManager: 
+  Backgroundtask named 'removeDirectory' threw exception
+  Message: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/backgroundtasks/BackgroundTask_removeDirectory.sys.mjs :: cleanupOtherDirectories :: line 206"  data: no]
+  Stack:
+    cleanupOtherDirectories@resource://gre/modules/backgroundtasks/BackgroundTask_removeDirectory.sys.mjs:206:17
+runBackgroundTask@resource://gre/modules/backgroundtasks/BackgroundTask_removeDirectory.sys.mjs:331:11
+
